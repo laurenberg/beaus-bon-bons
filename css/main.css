@@ -3,3 +3,57 @@
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
+
+/*HEADER*/
+
+header {
+
+  background-color: #000;
+
+}
+
+h1 {
+
+  color: #fff;
+  display: inline-block;
+
+}
+
+ul {
+
+  list-style-type: none;
+
+}
+
+.list-group {
+
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  display: inline-block;
+  text-align: right;
+
+}
+
+.list-group-item {
+
+  display: inline-block;
+  text-align: right;
+
+}
+
+.banner-img {
+
+  float: right;
+  width: 100%;
+  position: absolute;
+
+}
+
+.banner-text {
+
+  float: left;
+  text-align: center;
+  position: relative;
+
+}
