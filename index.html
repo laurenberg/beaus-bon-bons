@@ -41,7 +41,7 @@
     <div class="unit xs-1 s-1 m-1 l-1">
       <main class="wrapper">
         <section class="wrapper story" id="story">
-          <div class="story-bg">
+          <div>
             <div class="story">
               <h2 class="body-h2 yotta">Our Story</h2>
               <p>From humble beginnings, our shoppe was established in 1999 by Tonks and Dudley Longerbottom.</p>
@@ -127,6 +127,36 @@
             </div>
           </div>
         </section>
+        <form action="https://formspree.io/your@email.com" method="POST" menthod="post">
+
+          <div class="form-div">
+            <label for="subject">Subject</label>
+            <select id="subject">
+              <option>--</option>
+              <option>Hosting a party</option>
+              <option>Inquiring about delivery</option>
+              <option>Curious about ingredients</option>
+              <option>Other...</option>
+            </select>
+          </div>
+
+          <div class="form-div">
+            <label for="name">Name</label>
+            <input class="form-label" id="name">
+          </div>
+
+          <div class="form-div">
+            <label for="email">Email</label>
+            <input  class="form-label" type="email" id="email" placeholder="iwantcandy@yesplease.com">
+          </div>
+
+          <div class="form-div">
+            <label for="message">Tell us a little more.</label>
+            <textarea class="form-label" id="message"></textarea>
+          </div>
+
+          <button type="submit">Send</button>
+        </form>
 
       </main>
     </div>

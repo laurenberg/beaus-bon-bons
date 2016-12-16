@@ -271,13 +271,6 @@ hr::after {
 
 }
 
-.story-bg {
-
-  background-image: url("../images/store.jpg");
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
 /* CARDS */
 
@@ -357,6 +350,36 @@ hr::after {
 
 }
 
+/* FORM */
+
+form {
+
+  font-family: "Droid Serif", serif;
+  margin: 2rem;
+  padding-bottom: 2em;
+
+}
+
+input
+textarea {
+
+border-radius: 8px;
+
+}
+
+input:focus,
+textarea:focus {
+
+  background-color: #fff;
+
+}
+
+.form-label {
+
+  background-color: #ccffe6;
+
+}
+
 @media only screen and (min-width: 25em) {
 
   body {
@@ -397,13 +420,13 @@ hr::after {
 
   }
 
-  label {
+  .nav-label {
 
     display: none;
 
   }
 
-  input {
+  .checkbox {
 
     display: none;
 
@@ -455,8 +478,8 @@ hr::after {
 
   .story {
 
-    height: 600px;
-    width: 600px;
+    height: 400px;
+    width: 400px;
 
   }
 
