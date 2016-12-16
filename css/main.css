@@ -271,7 +271,6 @@ hr::after {
 
 }
 
-
 /* CARDS */
 
 .sections {
@@ -360,10 +359,10 @@ form {
 
 }
 
-input
+input,
 textarea {
 
-border-radius: 8px;
+  border-radius: 8px;
 
 }
 
